@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Raleway:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/word.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>André Luiz Coelho de Matos</title>
+</head>
+
+    <body>
+
+        <div id="header">
+            
+            <div class="container">
+                <nav>
+                    <img src="images/logo.svg" alt="logo" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">Sobre Mim</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars-staggered" onclick="openmenu()"></i>
+                </nav>
+                <div class="stroke"></div>
+                <div class="header-text">
+                    <img src="images/img.svg" class="photo">
+                    <p>Olá, eu me chamo André</p>
+                    <h2>Eu simplifico o ambiente corporativo com o poder da TI</h2>
+                    <a href="./doc/CURRICULO _ ANDRE LUIZ COELHO DE MATOS .pdf" download class="btn2">Baixar
+                        Curriculo</a>
+                    <a href="https://www.linkedin.com/in/andr%C3%A9-matos-b1599769/"   target="_blank"  class="btn">Meu LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <!------------------- About ------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-background">
+
+
+                        <div class="about-col-2">
+                            <h1 class="sub-title">Sobre mim</h1>
+                            <p class="spacing">Atuando na Gestão de Pessoas, Negócios e Análise Trabalhista; Planos e
+                                Benefícios
+                                Sociais;
+                                Conhecimento e vivência nas ferramentas e Gestão de Qualidade, Relatórios de
+                                profissionalização
+                                da área de Recursos Humanos com mudança de cultura, focando em resultados; Impulsionamento
+                                na
+                                qualidade sistêmica para uma desburocratização do ambiente corporativo. <br> <br> Buscamos um
+                                desenvolvimento Ágil com a Tecnologia da Informação nos diversos segmentos empresariais,
+                                dando
+                                qualidade aos setores que utilizam da computação como meio para produzir, transmitir,
+                                armazenar,
+                                acessar e usar diversas informações e tomar decisão com maiores probabilidades de segurança.
+                            </p>
+                        </div>
+
+                        <div class="tab-headline">
+                            <h1>Experiência </h1>
+                        </div>
+
+                        <div class="tab-titles">
+
+                            <p class="tab-links active-link" onclick="opentab('Softwares')">Experiência Softwares</p>
+                            <p class="tab-links" onclick="opentab('Acadêmica')">Formação Acadêmica</p>
+                            <p class="tab-links" onclick="opentab('Continuada')">Formação Continuada</p>
+                            <p class="tab-links" onclick="opentab('Experiência')">Experiência Profissional</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Softwares">
+                            <ul>
+                                <li>LG Sistemas FPW FOLHA DE PAGAMENTO </li>
+                                <li>LG Sistemas FPW REPORT </li>
+                                <li>Totvs RM LABORE </li>
+                                <li>Sistema de Gerenciamento Financeiro e Contábil SGF </li>
+                                <li>LG Sistemas SOC-Software Integrado de Gestão Ocupacional</li>
+                                <li>sistema de registro de ponto FORPONTO </li>
+                                <li>Sistema de Registro de ponto DOKIMAZO</li>
+                                <li>Sistemas de Qualidade CNRH</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Acadêmica">
+                            <ul>
+                                <li>SENAC ADS - 5º Período Análise e Desenvolvimento de Sistemas </li>
+                                <li>IPOG - Conclusão em 2016 MBA em Contabilidade/Direito Tributário </li>
+                                <li>UNIFAN - conclusão em 2011 Graduação em Ciências Contábeis</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Continuada">
+                            <ul>
+                                <li> Introdução a Linguagem Java e Python</li>
+                                <li> Big Data em Apoio à Tomada de Decisão</li>
+                                <li> OKR Aplicado à Transformação Digital</li>
+                                <li> Scrum no Contexto do Serviço Público</li>
+                                <li>SERPRO Captura de Dados biométricos para Certificação Digital </li>
+                                <li>SERPRO Grafoscopia e Documentoscopia AGR </li>
+                                <li>IPOG Excel Avançado Planilhas Inteligente</li>
+                                <li>ILB (Instituto Legislativo Brasileiro) Relações Internacionais</li>
+                                <li>FAEG/SENAR GO Sistema de Informação e Análise Econômico-Financeira Rural
+                                </li>
+                                <li>IPOG Mindfulness – Auto Liderança e Gestão do Stress </li>
+                                <li>LG Sistemas Treinamento de Parametrização E-Social </li>
+                                <li>IGT (Instituto Goiano de Direito do Trabalho) Legislação Trabalhista
+                                    Aplicada de Forma Preventiva</li>
+                                <li> FGTS Digital </li>
+                                <li>ESAF (Escola de Administração Fazendária) Disseminadores de Educação
+                                    Fiscal </li>
+                                <li>LB (Instituto Legislativo Brasileiro) Modalidades, Tipos e Fases da
+                                    Licitação </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Experiência">
+                            <ul>
+                                <li>Empresa: Profissional Liberal CRC – 022553 - O
+                                    <br><br> Período: 03/2023 || Tel: (62) 99281-6156
+                                    <br><br> Auditor em TI com a certificação em andamento pelo Instituto dos Auditores Internos do Brasil
+                                    <br>Aumentar e proteger o valor organizacional, fornecendo avaliação (assurance),
+                                    assessoria (advisory) e conhecimento (insight) objetivos baseados em riscos. Com o
+                                    objetivo de identificar os principais riscos e controles de tecnologia da informação
+                                    (Norma de Implantação 1210.A3) e prover conceitos fundamentais para Auditoria de
+                                    Tecnologia da Informação com conhecimento de modelos de mercado para realização de
+                                    trabalhos em temas específicos de baixa complexidade técnica;</li>
+
+                                <br><br>
+
+                                <li>Empresa: AGIR Corporativo - Associação de Gestão, Inovação e Resultados em Saúde
+                                    <br><br> Período: 05/2022 a 03/2023 Tel: (62) 98404-1639 (José Augustinho Zago)
+                                    <br><br> ANALISTA DE RH - DP
+                                    <br>Auditoria de Riscos e Conformidades da Gestão de Pessoal na Entidade; Apontamentos
+                                    da Folha de Pagamento para tomadas de decisões; Análise em TI e Adequação à LGPD para
+                                    Segurança da Informação; Análise das solicitações e contratações pelas Políticas e
+                                    Normativos do Plano de Cargos e Salários; Análises de Vulnerabilidades e demais
+                                    obrigações acessórias mensais e anuais (SEFIP, RAIS, DIRF, E-social, DCTFWEB);
+                                    Orientação/Atendimento às Unidades de Saúde da AGIR por meio de Legislações;
+                                    Conformidades e Compliance; Controle de benefícios, Plano saúde UNIMED, Vale transporte;
+                                    Auxilio em todas as rotinas da Seção de acordo com as demandas;</li>
+
+
+                                <br><br>
+
+
+                                <li>Empresa: SERVIÇO SOCIAL DO COMÉRCIO (SESC GOIÁS)
+                                    <br><br> Período: 09/2009 a 05/2022 Tel: (62) 3221-0623 (Rejane ou Cida)
+                                    <br><br> ASSESSOR TÉCNICO
+                                    <br>Análise e Gestão Computacional para Elaboração, lançamentos, cálculos da Folha de
+                                    pagamento, contabilização com o Setor Contábil; Orientações/Atendimento às Unidades
+                                    Executivas do Sesc sobre Legislação, Normas e Regimento Interno do Sesc; Emissão de
+                                    arquivos bancários; acompanhar processamento das remessas bancárias de folha, férias,
+                                    Rescisões, Diárias; Processos rescisórios de cálculos/elaboração, orientações nas
+                                    homologações; Acompanhar o desempenho da equipe em processos documentais exigidos para
+                                    novas contratações e compliance; Representar empresa junto à Caixa Econômica Federal,
+                                    Sindicatos, Secretaria de Finanças do Município, Estado e Receita Federal do Brasil no
+                                    âmbito da Seção de Relações do Trabalho; Controle de jornada, análise dos registros de
+                                    ponto, faltas, adicionais de horas extras e adicional noturno para
+                                    levantamentos/apontamentos para a Folha de Pagamento; SOC (Sistema Integrado de controle
+                                    de saúde e segurança no trabalho, cadastro/controle de atestados médicos).</li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------------- Contact ------------------->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title-contact">Vamos trabalhar juntos.</h1>
+
+                        <a href=".mattos.ok@gmail.com"
+                            class="btn2">Enviar email</a>
+
+                        <a href="https://www.linkedin.com/in/andr%C3%A9-matos-b1599769/" class="btn">Meu LinkedIn</a>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="index.js"></script>
+        <script src="https://kit.fontawesome.com/3d6d7df9a2.js" crossorigin="anonymous"></script>
+
+
+    </body>
+
+    </html>
